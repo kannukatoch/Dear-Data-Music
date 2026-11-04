@@ -1,0 +1,102 @@
+Music Data
+id,Date,Day,Time,Genre,Mood,Reason,Duration
+1,2026-10-10,Saturday,08:05,Pop,Happy,Getting ready in the morning,35
+2,2026-10-10,Saturday,11:50,K-pop,Relaxed,Doing a task,25
+3,2026-10-10,Saturday,13:45,K-pop,Happy,Travelling,15
+4,2026-10-10,Saturday,15:05,Bollywood,Tired,Getting home / relaxing after the day,35
+5,2026-10-10,Saturday,20:30,K-pop,Emotional,Relaxing in the evening,25
+6,2026-10-11,Sunday,08:05,Pop,Happy,Getting ready in the morning,10
+7,2026-10-11,Sunday,11:50,K-pop,Bored,Taking a study break,35
+8,2026-10-11,Sunday,12:45,K-pop,Happy,Taking a break,20
+9,2026-10-11,Sunday,15:45,Bollywood,Happy,Getting home / relaxing after the day,40
+10,2026-10-11,Sunday,19:00,Bollywood,Emotional,Relaxing in the evening,30
+11,2026-10-12,Monday,07:55,Pop,Happy,Getting ready in the morning,20
+12,2026-10-12,Monday,11:35,K-pop,Bored,Taking a study break,15
+13,2026-10-12,Monday,13:25,Pop,Motivated,Taking a break,30
+14,2026-10-12,Monday,15:45,Bollywood,Happy,Getting home / relaxing after the day,25
+15,2026-10-12,Monday,21:00,K-pop,Relaxed,Relaxing in the evening,40
+16,2026-10-13,Tuesday,07:40,Pop,Excited,Getting ready in the morning,30
+17,2026-10-13,Tuesday,11:35,K-pop,Focused,Taking a study break,40
+18,2026-10-13,Tuesday,12:20,K-pop,Stressed,Taking a break,10
+19,2026-10-13,Tuesday,16:15,Bollywood,Relaxed,Getting home / relaxing after the day,40
+20,2026-10-13,Tuesday,18:10,Pop,Relaxed,Doing chores,30
+21,2026-10-14,Wednesday,07:25,Pop,Happy,Getting ready in the morning,20
+22,2026-10-14,Wednesday,11:10,K-pop,Relaxed,Doing a task,20
+23,2026-10-14,Wednesday,13:25,K-pop,Happy,Travelling,40
+24,2026-10-14,Wednesday,15:05,Bollywood,Tired,Getting home / relaxing after the day,40
+25,2026-10-14,Wednesday,18:35,Bollywood,Relaxed,Before going to sleep,30
+26,2026-10-15,Thursday,08:15,Pop,Excited,Getting ready in the morning,30
+27,2026-10-15,Thursday,11:50,Pop,Relaxed,Doing a task,40
+28,2026-10-15,Thursday,13:25,Pop,Stressed,Walking,35
+29,2026-10-15,Thursday,15:05,Bollywood,Relaxed,Getting home / relaxing after the day,25
+30,2026-10-15,Thursday,20:00,Bollywood,Emotional,Relaxing in the evening,10
+31,2026-10-16,Friday,07:55,Pop,Happy,Getting ready in the morning,30
+32,2026-10-16,Friday,11:35,K-pop,Bored,Taking a study break,40
+33,2026-10-16,Friday,13:25,K-pop,Motivated,Travelling,10
+34,2026-10-16,Friday,15:15,Bollywood,Relaxed,Getting home / relaxing after the day,10
+35,2026-10-16,Friday,19:00,Bollywood,Relaxed,Relaxing in the evening,40
+36,2026-10-17,Saturday,08:05,Pop,Motivated,Getting ready in the morning,15
+37,2026-10-17,Saturday,11:35,K-pop,Relaxed,Travelling,40
+38,2026-10-17,Saturday,13:05,Pop,Happy,Walking,30
+39,2026-10-17,Saturday,15:05,Bollywood,Relaxed,Getting home / relaxing after the day,30
+40,2026-10-17,Saturday,19:25,Bollywood,Happy,Relaxing in the evening,25
+41,2026-10-18,Sunday,07:40,Pop,Excited,Getting ready in the morning,15
+42,2026-10-18,Sunday,10:45,K-pop,Bored,Doing a task,20
+43,2026-10-18,Sunday,12:20,K-pop,Stressed,Walking,20
+44,2026-10-18,Sunday,15:05,Bollywood,Relaxed,Getting home / relaxing after the day,25
+45,2026-10-18,Sunday,19:25,Bollywood,Happy,Relaxing in the evening,25
+46,2026-10-19,Monday,07:10,Pop,Excited,Getting ready in the morning,35
+47,2026-10-19,Monday,11:10,K-pop,Focused,Doing a task,15
+48,2026-10-19,Monday,14:05,K-pop,Happy,Walking,10
+49,2026-10-19,Monday,15:15,Bollywood,Relaxed,Getting home / relaxing after the day,30
+50,2026-10-19,Monday,21:00,Bollywood,Relaxed,Before going to sleep,35
+51,2026-10-20,Tuesday,08:05,Pop,Excited,Getting ready in the morning,15
+52,2026-10-20,Tuesday,10:25,K-pop,Bored,Taking a study break,15
+53,2026-10-20,Tuesday,12:20,Pop,Motivated,Taking a break,10
+54,2026-10-20,Tuesday,15:05,Bollywood,Happy,Getting home / relaxing after the day,30
+55,2026-10-20,Tuesday,20:30,K-pop,Relaxed,Doing chores,10
+56,2026-10-21,Wednesday,07:25,Pop,Motivated,Getting ready in the morning,40
+57,2026-10-21,Wednesday,11:10,K-pop,Bored,Doing a task,20
+58,2026-10-21,Wednesday,13:25,Pop,Motivated,Travelling,25
+59,2026-10-21,Wednesday,15:30,Bollywood,Tired,Getting home / relaxing after the day,10
+60,2026-10-21,Wednesday,19:00,K-pop,Happy,Relaxing in the evening,40
+61,2026-10-22,Thursday,06:55,Pop,Excited,Getting ready in the morning,30
+62,2026-10-22,Thursday,10:45,K-pop,Bored,Travelling,35
+63,2026-10-22,Thursday,12:45,K-pop,Stressed,Travelling,20
+64,2026-10-22,Thursday,16:00,Bollywood,Tired,Getting home / relaxing after the day,40
+65,2026-10-22,Thursday,19:25,K-pop,Emotional,Relaxing in the evening,15
+66,2026-10-23,Friday,07:40,Pop,Motivated,Getting ready in the morning,35
+67,2026-10-23,Friday,10:05,K-pop,Bored,Taking a study break,35
+68,2026-10-23,Friday,12:20,K-pop,Stressed,Taking a break,35
+69,2026-10-23,Friday,16:00,Bollywood,Tired,Getting home / relaxing after the day,10
+70,2026-10-23,Friday,21:00,Bollywood,Relaxed,Doing chores,40
+71,2026-10-24,Saturday,08:05,Pop,Excited,Getting ready in the morning,35
+72,2026-10-24,Saturday,10:45,K-pop,Relaxed,Travelling,10
+73,2026-10-24,Saturday,13:25,K-pop,Motivated,Travelling,20
+74,2026-10-24,Saturday,16:00,Bollywood,Happy,Getting home / relaxing after the day,40
+75,2026-10-24,Saturday,21:00,Bollywood,Emotional,Doing chores,25
+76,2026-10-25,Sunday,07:10,Pop,Motivated,Getting ready in the morning,25
+77,2026-10-25,Sunday,10:25,K-pop,Relaxed,Doing a task,25
+78,2026-10-25,Sunday,12:45,Pop,Happy,Travelling,20
+79,2026-10-25,Sunday,15:05,Bollywood,Tired,Getting home / relaxing after the day,15
+80,2026-10-25,Sunday,21:00,K-pop,Happy,Relaxing in the evening,35
+81,2026-10-26,Monday,08:15,Pop,Motivated,Getting ready in the morning,40
+82,2026-10-26,Monday,11:50,Pop,Relaxed,Taking a study break,10
+83,2026-10-26,Monday,12:45,K-pop,Motivated,Walking,10
+84,2026-10-26,Monday,16:00,Bollywood,Relaxed,Getting home / relaxing after the day,20
+85,2026-10-26,Monday,20:00,K-pop,Emotional,Relaxing in the evening,40
+86,2026-10-27,Tuesday,08:05,Pop,Excited,Getting ready in the morning,35
+87,2026-10-27,Tuesday,10:25,Pop,Focused,Taking a study break,30
+88,2026-10-27,Tuesday,13:05,Pop,Motivated,Travelling,40
+89,2026-10-27,Tuesday,16:00,Bollywood,Relaxed,Getting home / relaxing after the day,15
+90,2026-10-27,Tuesday,19:00,Bollywood,Emotional,Relaxing in the evening,30
+91,2026-10-28,Wednesday,07:40,Pop,Motivated,Getting ready in the morning,25
+92,2026-10-28,Wednesday,11:10,K-pop,Relaxed,Doing a task,30
+93,2026-10-28,Wednesday,13:45,K-pop,Motivated,Walking,20
+94,2026-10-28,Wednesday,16:00,Bollywood,Tired,Getting home / relaxing after the day,30
+95,2026-10-28,Wednesday,21:00,K-pop,Happy,Before going to sleep,20
+96,2026-10-29,Thursday,08:15,Pop,Excited,Getting ready in the morning,20
+97,2026-10-29,Thursday,11:50,K-pop,Bored,Travelling,15
+98,2026-10-29,Thursday,14:05,Pop,Stressed,Walking,30
+99,2026-10-29,Thursday,16:15,Bollywood,Relaxed,Getting home / relaxing after the day,15
+100,2026-10-29,Thursday,19:00,Bollywood,Emotional,Doing chores,30

@@ -7,7 +7,6 @@ void setup() {
   fill(50);
   textSize(24);
   text("Why Do I Listen to Music?", 180, 40);
-
   textSize(14);
   text("My music, moods and daily habits", 220, 70);
 
@@ -22,8 +21,8 @@ void setup() {
   ellipse(380, 190, 60, 60);
   ellipse(460, 140, 50, 50);
 
-  // Bollywood - Orange
-  fill(255, 180, 80);
+  // Bollywood - red
+  fill(165, 42, 42);
   ellipse(540, 210, 65, 65);
   ellipse(600, 280, 50, 50);
 
@@ -49,7 +48,7 @@ void setup() {
   fill(50);
   text("K-pop", 320, 415);
 
-  fill(255, 180, 80);
+  fill(165, 42, 42);
   ellipse(440, 410, 20, 20);
   fill(50);
   text("Bollywood", 460, 415);
