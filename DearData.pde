@@ -12,19 +12,19 @@ void setup() {
 
   // Pop music - Pink
   fill(255, 120, 150);
-  ellipse(120, 150, 60, 60);
+  ellipse(125, 150, 65, 50);
   ellipse(200, 180, 45, 45);
-  ellipse(280, 130, 55, 55);
+  ellipse(285, 130, 50, 55);
 
   // K-pop - Blue
   fill(120, 160, 255);
-  ellipse(380, 190, 60, 60);
-  ellipse(460, 140, 50, 50);
+  ellipse(385, 192, 60, 60);
+  ellipse(460, 142, 55, 50);
 
   // Bollywood - red
   fill(165, 42, 42);
-  ellipse(540, 210, 65, 65);
-  ellipse(600, 280, 50, 50);
+  ellipse(545, 210, 65, 65);
+  ellipse(600, 282, 50, 55);
 
   // Mood labels
   fill(50);
