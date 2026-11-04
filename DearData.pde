@@ -1,55 +1,46 @@
+// Dear Data: Why Do I Listen to Music?
+
+
+ArrayList<MusicSession> sessions = new ArrayList<MusicSession>();
 
 void setup() {
-  size(700, 500);
-  background(255, 240, 245);
+  size(900, 650);
 
-  // Project title
-  fill(50);
-  textSize(24);
-  text("Why Do I Listen to Music?", 180, 40);
-  textSize(14);
-  text("My music, moods and daily habits", 220, 70);
+  String[] lines = loadStrings("data.csv");
 
-  // Pop music - Pink
-  fill(255, 120, 150);
-  ellipse(125, 150, 65, 50);
-  ellipse(200, 180, 45, 45);
-  ellipse(285, 130, 50, 55);
-
-  // K-pop - Blue
-  fill(120, 160, 255);
-  ellipse(385, 192, 60, 60);
-  ellipse(460, 142, 55, 50);
-
-  // Bollywood - red
-  fill(165, 42, 42);
-  ellipse(545, 210, 65, 65);
-  ellipse(600, 282, 50, 55);
-
-  // Mood labels
-  fill(50);
-  textSize(16);
-  text("Happy", 90, 260);
-  text("Motivated", 180, 260);
-  text("Excited", 370, 260);
-  text("Relaxed", 520, 320);
-
-  // Genre key
-  textSize(16);
-  text("Music Genres", 280, 370);
-
-  fill(255, 120, 150);
-  ellipse(180, 410, 20, 20);
-  fill(50);
-  text("Pop", 200, 415);
-
-  fill(120, 160, 255);
-  ellipse(300, 410, 20, 20);
-  fill(50);
-  text("K-pop", 320, 415);
-
-  fill(165, 42, 42);
-  ellipse(440, 410, 20, 20);
-  fill(50);
-  text("Bollywood", 460, 415);
+  for (int i = 2; i < lines.length; i++) {
+    String[] tokens = split(lines[i], ",");
+    if (tokens.length < 8) continue;   
+    sessions.add(new MusicSession(tokens));
+  }
+  println(sessions.size() + " sessions loaded");
 }
+
+void draw() {
+  background(255, 240, 245);
+  fill(50);
+  textAlign(CENTER);
+  textSize(25);
+  text("Why Do I Listen to Music?", width/2, 40);
+  textSize(12);
+  text("One circle per listening session. Colour = genre, size = duration, letter = mood.", width/2, 70);
+
+  }
+}
+
+class MusicSession {
+  String genre, mood;
+  int duration;
+
+  MusicSession(String[] t) {
+    genre = t[4];
+    mood = t[5];
+    duration = int(t[7]);
+  }
+
+  // Returns a colour based on genre
+  color genreColour() {
+    if (genre.equals("Pop")) return color(255, 120, 150);
+    if (genre.equals("K-pop")) return color(120, 160, 255);
+    return color(255, 180, 80);   // Bollywood
+  }
